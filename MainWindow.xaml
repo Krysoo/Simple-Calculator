@@ -1,0 +1,27 @@
+﻿<Window x:Class="Calculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calculator"
+        mc:Ignorable="d"
+        Title="Calculator" ResizeMode="NoResize" Height="494" Width="auto" SizeToContent="WidthAndHeight">
+    <Grid Width="299" Height="469">
+        <Button x:Name="numberOne" Content="1" HorizontalAlignment="Left" Margin="25,198,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.202,-0.349" Height="44" Width="62" FontSize="20" Click="button_Click"/>
+        <Button x:Name="numberTwo" Content="2" HorizontalAlignment="Center" Margin="0,198,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.202,-0.349" Height="44" Width="62" FontSize="20" Click="button_Click" />
+        <Button x:Name="numberFour" Content="4" HorizontalAlignment="Left" Margin="25,273,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.202,-0.349" Height="44" Width="62" FontSize="20" Click="button_Click" />
+        <Button x:Name="numberThree" Content="3" HorizontalAlignment="Left" Margin="213,198,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.202,-0.349" Height="44" Width="62" FontSize="20" Click="button_Click"/>
+        <Button x:Name="numberFive" Content="5" HorizontalAlignment="Center" Margin="0,273,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.202,-0.349" Height="44" Width="62" FontSize="20" Click="button_Click"/>
+        <Button x:Name="numberSix" Content="6" HorizontalAlignment="Left" Margin="213,273,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.202,-0.349" Height="44" Width="62" FontSize="20" Click="button_Click"/>
+        <Button x:Name="numberSeven" Content="7" HorizontalAlignment="Left" Margin="25,347,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.202,-0.349" Height="44" Width="62" FontSize="20" Click="button_Click"/>
+        <Button x:Name="numberEight" Content="8" HorizontalAlignment="Center" Margin="0,347,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.202,-0.349" Height="44" Width="62" FontSize="20" Click="button_Click"/>
+        <Button x:Name="numberNine" Content="9" HorizontalAlignment="Left" Margin="213,347,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.202,-0.349" Height="44" Width="62" FontSize="20" Click="button_Click"/>
+        <Button x:Name="numberZero" Content="0" HorizontalAlignment="Center" Margin="0,419,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.202,-0.349" Height="44" Width="62" FontSize="20" Click="button_Click"/>
+        <Button x:Name="enterButton" Content="Enter" HorizontalAlignment="Left" Margin="213,419,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.202,-0.349" Height="44" Width="62" FontSize="20" Click="enterButton_Click"/>
+        <Button x:Name="plusButton" Content="+" HorizontalAlignment="Left" Margin="25,126,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.202,-0.349" Height="44" Width="62" FontSize="20" Click="button_Click"/>
+        <Button x:Name="minusButton" Content="-" HorizontalAlignment="Center" Margin="0,126,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.202,-0.349" Height="44" Width="62" FontSize="20" Click="button_Click"/>
+        <Button x:Name="multiButton" Content="*" HorizontalAlignment="Left" Margin="213,126,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.202,-0.349" Height="44" Width="62" FontSize="20" Click="button_Click"/>
+        <TextBox x:Name="evaluationField" HorizontalAlignment="Left" Margin="30,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="245" Height="71" FontSize="24" TextAlignment="Center"/>
+
+    </Grid>
+</Window>
